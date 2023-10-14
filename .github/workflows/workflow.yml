@@ -14,7 +14,7 @@ jobs:
       - name: Generate Directory Listings
         uses: jayanta525/github-pages-directory-listing@v3.0.0
         with:
-          FOLDER: store      #directory to generate index
+          FOLDER: data      #directory to generate index
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
